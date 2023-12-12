@@ -1,6 +1,11 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson>
-  <disabledAdministrativeMonitors/>
+  <disabledAdministrativeMonitors>
+    <string>jenkins.monitor.OperatingSystemEndOfLifeAdminMonitor</string>
+    <string>jenkins.diagnostics.ControllerExecutorsNoAgents</string>
+    <string>jenkins.monitor.JavaVersionRecommendationAdminMonitor-11-2024-09-30-WARNING</string>
+    <string>jenkins.diagnostics.RootUrlNotSetMonitor</string>
+  </disabledAdministrativeMonitors>
   <version>2.426.1</version>
   <numExecutors>2</numExecutors>
   <mode>NORMAL</mode>
